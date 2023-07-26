@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: .625rem 30rem;
+    margin-top: 3.5rem;
+    
+    height:  190px;;
+    
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #6c757d;
+    
+   }
+
+   .footer h2{
+    font-size: var(--tittle-2-font-size);
+    font-weight: var(--tittle-2-font-weight);
+  
+  }
+
+   .footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem;
+
+   }
+
+   .footer img{
+    height: 17.94637107849121px;
+    width: 18px;
+    border-radius: 0px;
+   }
+

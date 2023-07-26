@@ -1,0 +1,33 @@
+@import '../../../styles/index.css';
+
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 30rem;
+}
+
+.label{
+    color: var(--color-primary);
+}
+
+.frase{
+    color:#6c757d ;
+}
+
+.home div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.home h1{
+    font-size: var(--tittle-1-font-size);
+    font-weight: var(--tittle-1-font-weight);
+}
+
+.home button{
+    width: fit-content;
+}

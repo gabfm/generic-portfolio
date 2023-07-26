@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: .625rem 30rem;
+}
+
+.about h2{
+    font-size: var(--tittle-2-font-size);
+    font-weight: var(--tittle-2-font-weight);
+    
+}
+
+.about p{
+    color:#6c757d ;
+    width: 38.4375rem;
+    line-height: 1.875rem;
+}

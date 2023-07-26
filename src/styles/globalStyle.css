@@ -1,0 +1,53 @@
+
+:root {
+    --color-primary : #6880FF;
+    --color-primary-Hover : #7C91FF;
+    --color-background: #181818;
+    --fixed-white: #FFFFFF;
+    --tittle-1-font-size: 48px;
+    --tittle-1-font-weight: bold;
+    --tittle-2-font-size: 40px;
+    --tittle-2-font-weight: bold;
+    --tittle-3-font-size: 22px;
+    --tittle-3-font-weight: bold;
+    --label-font-size: 14px;
+    --link-font-size: 16px;
+    --link-font-weight: weight;
+    --paragraph-font-size: 16px;
+   
+}
+h2{
+  font-size: var(--tittle-2-font-size);
+  font-weight: var(--tittle-2-font-weight);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    background: var(--color-background);
+    background-attachment: fixed;
+    color: var(--fixed-white);
+    -webkit-font-smoothing: antialiased;
+    gap: 3.125rem;
+    overflow-x: hidden;
+    
+  }
+
+  body, input, button, textarea {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }

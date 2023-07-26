@@ -1,0 +1,22 @@
+@import '../../styles/index.css';
+
+.header {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ margin: .625rem 30rem;
+}
+
+.nav__containeir{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    gap: 2.5rem;
+}
+
+.nav__containeir li:hover{
+    cursor: pointer;
+    text-decoration: underline var(--color-primary-Hover)
+}
